@@ -1,0 +1,39 @@
+/* ==================================================== IMPORTS ==================================================== */
+//application
+@import './variables.scss';
+@import './normalize.scss';
+@import './fonts.scss';
+//modules
+@import '../../node_modules/swiper/swiper-bundle.css';
+/* ===================================================== COMMON ==================================================== */
+body {
+    width: 100%;
+    font-family: 'Hanken Grotesk';
+    font-weight: 400;
+    line-height: 1;
+    // -webkit-font-smoothing: antialiased;
+    background-color: $dark_white-color;
+}
+
+body,
+textarea,
+ul {
+    &::-webkit-scrollbar {
+        width: 10px;
+        background-color: $dark_white-color;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        // border-radius: 10px;
+        background-color: $orange-color;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: $dark_white-color;
+    }
+}
+
+.main {
+    width: 100%;
+    overflow: hidden;
+}

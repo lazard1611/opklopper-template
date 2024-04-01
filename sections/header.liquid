@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="{{ 'header.css' | asset_url }}">
+
+<div class="header-wrapper">
+	HEADER
+</div>
+
+{% comment %} <script type="module" src="{{ 'header.js' | asset_url }}"></script> {% endcomment %}
+
+{% schema %}
+    {
+        "name": "Header",
+		"tag": "header",
+		"class": "header"
+    }
+{% endschema %}

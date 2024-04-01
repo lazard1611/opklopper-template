@@ -1,0 +1,11 @@
+{
+    "sections": {
+        "Hero": {
+            "type": "EXAMPLE-SECTION",
+            "settings": {}
+        }
+    },
+    "order": [
+        "Hero"
+    ]
+}

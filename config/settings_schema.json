@@ -1,0 +1,38 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "New theme",
+    "theme_author": "Kullpoint",
+    "theme_version": "2.0",
+    "theme_documentation_url": "https://documentation.fuelthemes.net/article-categories/north/",
+    "theme_support_url": "https://fuelthemes.net/contact/"
+  },
+  {
+    "name": "Cookie notice",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "cookie_notice",
+        "label": "Enable cookie notice"
+      },
+      {
+        "type": "richtext",
+        "id": "cookie_notice_text",
+        "label": "Text",
+        "default": "<p>Add information and links regarding your cookie policy.</p>"
+      },
+      {
+        "type": "color",
+        "id": "cookie_text_color",
+        "label": "Text",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "cookie_bg_color",
+        "label": "Background",
+        "default": "#000000"
+      }
+    ]
+  }
+]
